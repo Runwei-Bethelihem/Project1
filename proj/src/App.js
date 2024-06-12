@@ -15,10 +15,11 @@ function App() {
   <Pages/>
   <Boxes/>
   <Pictures/>
+  <div className="backgroundcolor">
   <Footerr/>
   <div className="custom-divider"></div>
   <End/>
- 
+ </div>
   </>
   );
 }

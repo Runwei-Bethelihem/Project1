@@ -6,15 +6,13 @@ import p3 from './assests/p3.png';
 function Pictures() {
     return (
         <div className="background-container" style={{ backgroundImage: `url(${e})` }}>
-        <div className="overlay-container">
           <div className="picture-wrapper">
-          
             <img src={p1} alt="Pic 1"  className="picture00" />
             <img src={p2} alt="Pic 2"  className="picture11" />
             <img src={p3} alt="Pic 3" className="picture22" />
+            </div>
           </div>
-        </div>
-      </div>
+        
     );
   }
   

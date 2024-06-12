@@ -24,6 +24,7 @@ export default function End() {
         <img src={cpr} alt="Instagram" className="picture3" />
       </div>
       <div className="footerText">
+      <div className="backgroundcolor">
       <p>TrustFundRegistry is the tradename of TrustFundRegistry LLC, an SEC-registered investment 
         adviser. Our internet-based investment advisory services are designed to assist clients in saving for college and are not intended to provide comprehensive tax advice or 
         financial planning. Our services are available to U.S. residents only. This website shall not be considered a solicitation or offering for any 
@@ -35,6 +36,7 @@ export default function End() {
   calculator and pricing comparison are hypothetical tools provided for illustrative purposes only and are based on important 
   assumptions described here.</p>
   </div>
+      </div>
       </div>
 
     );
