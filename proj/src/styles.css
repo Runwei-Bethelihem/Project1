@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.site-title {
+    font-size: 1.5rem;
+}
+.nav {
+background-color:#F2F5F7;
+color: white;
+display: flex;
+justify-content:space-between;
+align-items:center;
+gap: 2rem;
+padding: 0 1rem;
+}
+.nav .logo {
+    height: 40px;
+    width: auto; 
+  }
+  .italic {
+    font-style: italic;
+  }
+.nav u1{
+    padding: 0;
+    margin: 0;
+    justify-content:space-evenly;
+    display: flex;
+    gap: 0.5rem;
+}
+.nav u2{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0.5rem;
+}
+.nav a{
+    color:#000000;
+    ;
+    text-decoration: none;
+}
+.nav li.active{
+    background-color: #4f83a7;
+
+}
+.nav li.active{
+    background-color: #011b2c;
+}
+
+.createAccountButton {
+  background-color: #631B77;
+  color: white !important;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight:normal;
+  }
+.page a {
+    background-color: #2CDAE5
+    100%
+    #2CDAE5
+    0%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .pages-container {
+    padding: 20px;
+  }
+  
+  .initial-text {
+    margin-bottom: 20px;
+  }
+  
+  .sections-container {
+    display: flex;
+  }
+  
+  .left-section, .right-section {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .left-section {
+    padding-right: 10px;
+  }
+  
+  .right-section {
+    padding-left: 10px;
+  }
+
+  .container {
+    display: flex;
+  }
+  
+  .box {
+    background-color: #c580f0a9;
+    flex: 1;
+    border: 1px solid #c580f0a9;
+    padding: 10px;
+    margin: 10px;
+    border-radius:10px;
+  }
+  
+  .inner-box {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    margin: 5px;  
+    border-radius:5px;
+  }
+  .button-container {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+  }
+  
+  .whitebutton {
+    background-color: white;
+    font-family: poppins ;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+  }
+  
+  .purplebutton {
+    background-color: #631B77;
+    border-radius: 8px;
+    border: 1px solid #631B77;
+    color: white;
+    font-family: poppins ;
+    margin-left: 10px;
+  }
+  .footer {
+    display: flex;
+  }
+  
+  .left-section, .right-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left-section {
+    border-right:#F2F5F7;
+  }
+  
+  .right-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right-section h2 {
+    margin-bottom: 10px;
+  }
+
+  /*.logo1 {
+    max-width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+  }*/
+
+  .logo-container {
+    display: flex;
+    justify-content:space-between; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%; /* Full width to center content */
+    margin-top: 2405px; /* Margin to push the container down */
+    position: relative;
+  }
+  .logo11 {
+    width: 165.17px;
+    height: 90px;
+    
+  }
+  .logo12 {
+    width: 230px;
+    height: 84.93px;
+  }
+  .logo13 {
+    width: 172px;
+    height: 60.99px;
+  }
+  .logo14 {
+    width:461px;
+    height:117px;
+  }
+  .logo15 {
+    width: 236px;
+    height: 119px;
+    margin-left: 255px;
+  }
+
+  .foot {
+   
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    gap: 4rem;
+    padding: 0 10rem;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    }
+      .italic {
+        font-style: italic;
+      }
+    .foot u1{
+        padding: 0;
+        margin: 0;
+        justify-content:space-evenly;
+        display: flex;
+        gap: 0.5rem;
+    }
+    .foot a{
+        color:#000000;
+        ;
+        text-decoration: none;
+    }
+    .foot li.active{
+        background-color: #4f83a7;
+    
+    }
+    .foot li.active{
+        background-color: #011b2c;
+    }
+    
+    .custom-divider {
+      width: 80%; /* Adjust width as needed */
+      height: 2px;
+      background-color: #000000; /* Adjust color as needed */
+      margin: 20px auto; /* Center the divider and add vertical spacing */
+    }
+
+    .pictureSocial {
+      display: flex;
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+    }
+    
+    .socialIcons {
+      margin-bottom: 20px; /* Add space between social icons and CPR picture */
+    }
+    
+    .picture2 {
+      margin: 0 10px; /* Optional margin between social media icons */
+    }
+    
+    .picture3 {
+      margin-top: 15px; /* Add some space between social media icons and CPR picture */
+    }
+    
+    .cprContainer {
+      display: flex;
+      justify-content: center;
+    }
+
+
+    .footerText {
+      width: 80%; /* Adjust width as needed */
+      margin: 0 auto; /* Center the text block horizontally */
+      text-align: justify; /* Justify the text */
+    }
+    
+    .footerText p {
+      margin-bottom: 10px; /* Add spacing between paragraphs */
+    }

@@ -1,12 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './NavBar';
+import Pages from './pages';
+import Boxes from './boxes';
+import Pictures from './pics';
+import Footerr from './footer';
+import End from './end'
+
+//import logo from './logo.svg';
+//import './App.css';
 
 function App() {
   return (
-    <div className="App">
-     <t1>HI Thank you</t1>
-    </div>
+    <>
+  <NavBar/> 
+  <Pages/>
+  <Boxes/>
+  <Pictures/>
+  <Footerr/>
+  <div className="custom-divider"></div>
+  <End/>
+ 
+  </>
   );
 }
 
-export default App;
+export default App
